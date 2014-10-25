@@ -78,7 +78,8 @@ git push origin master
 # Authors
 
 [MRMRS](http://mrmrs.io "Adam Morse - Designer Developer")
-[Jay Hoffmann]('http://jayhoffmann.com')
+
+[Jay Hoffmann](http://jayhoffmann.com)
 
 # License
 
