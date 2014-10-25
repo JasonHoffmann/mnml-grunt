@@ -87,13 +87,7 @@ module.exports = function(grunt) {
   });
     
 
-grunt.loadNpmTasks('grunt-browser-sync');
-grunt.loadNpmTasks('grunt-autoprefixer');
-grunt.loadNpmTasks('grunt-contrib-csslint');
-grunt.loadNpmTasks('grunt-contrib-imagemin');
-grunt.loadNpmTasks('grunt-contrib-cssmin');
-grunt.loadNpmTasks('grunt-contrib-sass');
-grunt.loadNpmTasks('grunt-contrib-watch');
+require('load-grunt-tasks')(grunt);
 
 
 // Setting up browsersyn to run in parallel to watch task

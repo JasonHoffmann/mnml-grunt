@@ -5,7 +5,7 @@
   "homepage": "http://mn-ml.cc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JasonHoffmann/mnml-grunt/issues"
+    "url": "https://github.com/JasonHoffmann/mnml-grunt"
   },
   "keywords": [
     "html5",
@@ -18,7 +18,7 @@
   "author": "Jay Hoffmann",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/JasonHoffmann/mnml-grunt/issues"
   },
   "devDependencies": {
     "browser-sync": "^1.6.0",
@@ -28,7 +28,8 @@
     "grunt-contrib-cssmin": "^0.10.0",
     "grunt-contrib-imagemin": "^0.9.0",
     "grunt-contrib-sass": "^0.8.1",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0"
   },
   "scripts": {
     "start": "grunt",
