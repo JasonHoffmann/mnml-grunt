@@ -1,11 +1,13 @@
-# MNML
+# MNML-Grunt
 
 ## What is this?
 
-View the project page at [http://mn-ml.cc](http://mn-ml.cc "MNML - A light-weight responsive html5 boilerplate.")
+This is a grunt port of the wonderful [MNML gulp boilerplate](https://github.com/mrmrs/mnml) from [MRMRS](http://mrmrs.io/)
+
+You can view the original gulp project page at [http://mn-ml.cc](http://mn-ml.cc "MNML - A light-weight responsive html5 boilerplate.")
 
 MNML is a starting point for prototyping responsive HTML5 SASS projects.
-Uses gulp to create a dev environment for rapidly prototyping sites. 
+Uses grunt to create a dev environment for rapidly prototyping sites. 
 
 ## Features
 
@@ -21,7 +23,7 @@ Uses gulp to create a dev environment for rapidly prototyping sites.
 * Create a new repo for your project on Github
 * In terminal run
 ```bash
-    git clone git@github.com:mrmrs/mnml.git yourNewRepoName
+    git clone git@github.com:JasonHoffmann/mnml-grunt.git yourNewRepoName
     cd yourNewRepoName
     rm -rf .git
     git init
@@ -47,9 +49,7 @@ Then run
 npm start
 ```
 
-Gulp is a javascript task runner. It compiles sass, lints the compiled css, and
-sets up a browser-sync server so you can save your fingers from pressing ⌘+TAB + ⌘+r 
-every time you save a file.
+Grunt is a JavaScript task runner which this project uses to compile SASS into CSS, lint CSS (check for errors), optimizes images, and sets up a browserSync server so you can save your fingers from pressing ⌘+TAB + ⌘+r every time you save a file.
 
 * Once you add & commit files you are ready to publish run:
 ```bash
@@ -60,7 +60,7 @@ git push origin master
 ```
     mnml/
         ├── README.md
-        ├── gulpfile.js
+        ├── Gruntfile.js
         ├── package.json
         ├── index.html                
         ├── css
@@ -75,9 +75,10 @@ git push origin master
             └── mnml.scss
 ```
 
-# Author
+# Authors
 
 [MRMRS](http://mrmrs.io "Adam Morse - Designer Developer")
+[Jay Hoffmann]('http://jayhoffmann.com')
 
 # License
 

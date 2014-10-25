@@ -5,7 +5,7 @@
   "homepage": "http://mn-ml.cc",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/JasonHoffmann/mnml-grunt/issues"
   },
   "keywords": [
     "html5",
@@ -24,7 +24,6 @@
     "browser-sync": "^1.6.0",
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^1.0.1",
-    "grunt-browser-sync": "^1.5.3",
     "grunt-contrib-csslint": "^0.3.1",
     "grunt-contrib-cssmin": "^0.10.0",
     "grunt-contrib-imagemin": "^0.9.0",
@@ -32,9 +31,9 @@
     "grunt-contrib-watch": "^0.6.1"
   },
   "scripts": {
-    "start": "",
-    "csslint": "",
-    "minify-css": "",
-    "images": ""
+    "start": "grunt",
+    "csslint": "grunt csslint",
+    "minify-css": "grunt cssmin",
+    "images": "grunt imagemin"
   }
 }
